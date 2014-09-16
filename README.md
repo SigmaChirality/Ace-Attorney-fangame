@@ -1,9 +1,4 @@
-Ace Attorney: Placeholder Name
+AA-Placeholder
 ==============
 
-
-
-This is a simple Ace Attorney simulation written in Python using Ren'Py libraries.
-
-
-
+"""YOU WOT M8"""
