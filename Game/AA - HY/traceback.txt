@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 160, in script call
+    call expression "splashscreen" from _call_splashscreen_1
+  File "game/script.rpy", line 53, in script
+    $ pn = player_name.strip()
+  File "game/script.rpy", line 53, in <module>
+    $ pn = player_name.strip()
+NameError: name 'player_name' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 160, in script call
+    call expression "splashscreen" from _call_splashscreen_1
+  File "game/script.rpy", line 53, in script
+    $ pn = player_name.strip()
+  File "C:\Users\ArceusDrago\Desktop\Ace Attorney - The Highschool Years\Ace Attorney - The Highschool Years\RenPy\renpy\ast.py", line 785, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\ArceusDrago\Desktop\Ace Attorney - The Highschool Years\Ace Attorney - The Highschool Years\RenPy\renpy\python.py", line 1382, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 53, in <module>
+    $ pn = player_name.strip()
+NameError: name 'player_name' is not defined
+
+Windows-post2008Server-6.2.9200
+Ren'Py 6.18.3.761
+HY 1.0
